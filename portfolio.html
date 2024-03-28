@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="nav-toggle">
+            <i class="fas fa-bars" id="show"></i>
+            <i class="fas fa-times" id="close"></i>
+          </div>
+
+          <div class="sidebar">
+            <div class="profile">
+                <h2 class="logo">WEBNYT</h2>
+                <img src="images/PngItem_1068071.png" alt="">
+            </div>
+            
+            <ul class="sidebar-lists">
+                <li class="sidebar-list"> 
+                    <a href="home.html"> 
+                        <i id="sidebar-icon" class="fa fa-home"></i>
+                       <span>Home</span> 
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="services.html" >
+                        <i id="sidebar-icon" class="fa fa-briefcase"></i>
+                        <span>Services</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">               
+                    <a href="portfolio.html"  class="active">
+                        <i id="sidebar-icon" class="fa fa-pencil-square"></i>
+                        <span>Portfolio</span>
+                    </a>
+                </li>
+                <li class="sidebar-list">
+                    <a href="contact.html">
+                        <i id="sidebar-icon" class="fa fa-phone"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+          
+            <div class="toggle-cont">
+                <button class="toggle-btn"></button>
+            </div>
+        </div>
+
+            <section class="page portfolio">
+              <a href="restaurant.html">
+                <div class="portfolio-lists cont">
+                    <div class="portfolio-list list">
+                        <h2>RESTAURANT APP</h2>
+                        <img src="images/project2.jpeg" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit.
+                         Aliquid, quis molestiae voluptate sapiente nemo quibusdam?
+                        </p>
+                    </div>
+              </a>
+                   <a href="music.html">
+                    <div class="portfolio-list list">
+                        <h2>MUSIC APP</h2>
+                        <img src="images/project1.jpeg" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit.
+                         Aliquid, quis molestiae voluptate sapiente nemo quibusdam?
+                        </p>
+                    </div>
+                   </a>
+                    
+                  <a href="frontend.html">
+                    <div class="portfolio-list list">
+                        <h2>FRONTEND APP</h2>
+                        <img src="images/project3.jpeg" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit.
+                         Aliquid, quis molestiae voluptate sapiente nemo quibusdam?
+                        </p>
+                    </div>
+                  </a>
+                </div>
+            </section>
+    </div>
+    <script src="js/sidebar.js"></script>
+    <script src="js/modetoggle.js"></script>
+</body>
+</html>
